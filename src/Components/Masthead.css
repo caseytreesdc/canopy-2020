@@ -23,11 +23,16 @@ a {
     width: 30vw;
 }
 
+.Masthead__button-group {
+    margin: 12vh 0;
+}
+
 .Masthead__button {
     padding: 2.5vh 4vw;
-    background-color: rgba(194, 108, 64, .8);
-    border-radius: 10%;
-    margin: 20vh 0 10vh 0;
+    margin: 0 4vw;
+    background-color: rgba(194, 108, 64, .30);
+    border: solid 1px  rgba(194, 108, 64, 1);
+    border-radius: 20%;
 }
 
 @media only screen and (max-width: 1024px) {
