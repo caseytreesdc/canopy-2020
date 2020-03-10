@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: rgb(30, 60, 35);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Masthead {
+    height: 85vh;
+    background-image: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(30, 60, 36, .7)),
+        url('../assets/leaves-masthead.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Masthead__title {
+    width: 30vw;
+}
+
+.Masthead__button {
+    padding: 2.5vh 4vw;
+    background-color: rgba(194, 108, 64, .8);
+    border-radius: 10%;
+    margin: 20vh 0 10vh 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Masthead__title {
+        width: 65vw
+        }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .Masthead__title {
+        width: 75vw
+        }
+  }

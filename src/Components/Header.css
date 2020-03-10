@@ -1,0 +1,13 @@
+.CT-Header {
+    border-bottom: 1px solid rgba(30, 60, 36, .5);
+    display: flex;
+    justify-content: left;
+    height: 15vh;
+    z-index: 0;
+}
+
+.CT-Header__logo {
+    height: 70%;
+    margin: auto 0;
+}
+

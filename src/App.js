@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from "./Components/Header"
+import Masthead from "./Components/Masthead"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Header></Header>
+      <Masthead></Masthead>
+      <div className="App__text-area">
+        <h1>Join Us In Celebration</h1>
+        <h2>Friday, April 24, 2020 | Dock5 @ Union Market</h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Arbor Day Bash: Celebrating the 2020 Canopy Awards is Casey Trees’ flagship event highlighting the accomplishments
+          of those working to enhance DC’s tree canopy and make the city we love more livable for us all. There’s no better way to celebrate Arbor Day.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
